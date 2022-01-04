@@ -1,7 +1,6 @@
 .background-image
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("https://solarimpulse.com/img/topics/plastic-pollution-effects-on-animals.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://solarimpulse.com/img/topics/plastic-pollution-effects-on-animals.jpg");
     height: 100%;
     width: auto;
     background-size: cover;
