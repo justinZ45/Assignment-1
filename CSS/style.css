@@ -11,3 +11,40 @@
 .white-font{
     color: white;
 }
+
+
+
+/* Background Image */
+.bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://www.cnet.com/a/img/i-_ri8aLwr4RpuxKDvDT4hJlY78=/1200x630/2021/10/29/cc5d5212-144b-479d-9a54-b4e3f6eef631/gettyimages-1248432149.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 56px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.bg-text {
+  text-shadow: black 0px 0px 2px;
+  letter-spacing: 1px;
+  width: 60%;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+.bg-text p {
+  color: rgb(199, 199, 199);
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .bg-text {
+    font-size: 1.375rem;
+  }
+}
